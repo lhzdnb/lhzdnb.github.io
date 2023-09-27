@@ -1,149 +1,77 @@
-<style>
-        /* Reset & General Styles */
-        body, h1, h2, h3, p, ul, li, button {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Open Sans', sans-serif;
-        }
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-            font-size: 16px;
-        }
-        
-        /* Header Styles */
-        header {
-            background-color: #2c3e50;  /* Darker shade */
-            color: #ecf0f1;  /* Light text color */
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s;
-        }
-        header:hover {
-            background-color: #34495e;  /* Slightly lighter on hover */
-        }
-        header h1 {
-            font-size: 2.5em;
-            font-weight: 600;
-        }
-        header p {
-            font-size: 1em;
-            font-weight: 300;
-        }
-        .menu-button {
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            padding: 10px 15px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .menu-button:hover {
-            background-color: #2980b9;
-        }
-        .nav-menu {
-            position: fixed;
-            top: 0;
-            left: -300px;  /* Initially hidden */
-            width: 250px;
-            height: 100%;
-            background-color: #2c3e50;
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-            padding: 2em 1em;
-            transition: left 0.3s;
-            z-index: 999;
-        }
-        .nav-menu.active {
-            left: 0;
-        }
-        .nav-menu ul {
-            list-style-type: none;
-        }
-        .nav-menu li {
-            margin-bottom: 1em;
-        }
-        .nav-menu a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 1.1em;
-            display: flex;
-            align-items: center;
-        }
-        .nav-menu a:hover {
-            color: #bdc3c7;
-        }
-        .nav-menu a i {
-            margin-right: 10px;
-            font-size: 1.3em;
-        }
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
-        /* Main Content Styles */
-        .container {
-            max-width: 800px;
-            margin: 80px auto 0;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2, h3 {
-            border-bottom: 2px solid #3498db;  /* Matching color */
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 1.7em;
-            font-weight: 600;
-        }
-        p, ul, li {
-            margin-bottom: 20px;
-            font-size: 1em;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        a:hover {
-            color: #2980b9;
-        }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
 
-        /* Animation */
-        .container {
-            opacity: 0;
-            transform: translateY(-20px);
-            animation: fadeInUp 1s forwards 0.5s;
-        }
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-        /* Scroll to top button */
-        .scroll-to-top {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            border-radius: 50%;
-            padding: 10px 15px;
-            cursor: pointer;
-            font-size: 1.5em;
-            transition: background-color 0.3s;
-            z-index: 1001;
-        }
-        .scroll-to-top:hover {
-            background-color: #2980b9;
-        }
-    </style>
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007AFF;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0a0a0d, #2c2c34);
+    color: #fff;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+.cta-btn {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    background-color: #fff;
+    color: #007AFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #007AFF;
+    color: #fff;
+}
