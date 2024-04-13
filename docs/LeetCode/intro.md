@@ -1,47 +1,20 @@
----
-sidebar_position: 1
----
+# 概述
 
-# Tutorial Intro
+LeetCode是所有程序员都知道的刷题网站，主要用来熟悉数据结构和学习算法。数据结构和算法是程序员的基础知识，也是面试中极为重要的一环。算法是大厂、中厂必考的知识，虽然在工作中不太常用到，但是却是衡量一个程序员的数学思维以及代码能力的很好的指标。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+在这一个板块中，我主要记录了我刷到的题目，每道题我都会放上我自己的答案，有些我觉得很好的题目或者我不太熟练的题目我会写详细的题解。作为前端开发工程师，我主要使用 `JavaScript` 刷题。当然，语言并不是我们关注的点，没有好坏之分，只要能够掌握基本语法就可以开始刷题了。
 
-## Getting Started
+我会按照数据结构来分类，包括了：
 
-Get started by **creating a new site**.
+- 数组
+- 链表
+- 堆栈
+- 队列
+- 哈希表
+- 字符串
+- 树
+- 图
+- 基础算法
+- 动态规划
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+[算法通关手册（LeetCode）](https://algo.itcharge.cn/)是LeetCode刷题的很好的学习网站，可以作为刷题路线。我就是按照这个网站上的路线来做题，同时也会有详细的题解和 `Python` 代码。我还按照**面试经典 150 题**来刷题，这是一个LeetCode的题库。

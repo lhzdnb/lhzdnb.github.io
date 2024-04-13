@@ -2,46 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+# 概述
 
-### What you'll need
+前端基础知识包含了408和前端三件套。408中包含了计算机网络、操作系统、数据库和计算机组成原理。前端三件套包含了 `HTML`，`CSS`以及 `JavaScript`。
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+要成为一名合格的前端开发工程师，首先要成为一名合格的软件工程师，而408就是软件工程师的基本素养。这些主要是学校中学习的知识。在此基础之上，前端三件套让我们成为一名合格的开端开发工程师。
 
-## Generate a new site
+这些知识都是面试和笔试中常见的问题，因此掌握好这些基础知识将帮助我们拿到offer。
 
-Generate a new Docusaurus site using the **classic template**.
+以下是一些学习的链接：
 
-The classic template will automatically be added to your project after you run the command:
+- 前端三件套：[MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web)
+- [计算机网络](https://gy23333.github.io/2020/03/16/%E3%80%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E8%87%AA%E9%A1%B6%E5%90%91%E4%B8%8B%E6%96%B9%E6%B3%95%E3%80%8B%E7%AC%94%E8%AE%B0/)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

@@ -9,7 +9,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "lhzdnb Blog",
-  tagline: "这是lhzdnb的前端开发技术博客",
+  tagline:
+    "欢迎访问我的前端开发技术博客，这里记录了一些我整理的知识点和学习心得，尽量保证每天更新！",
   favicon: "img/logo-color.svg",
 
   // Set the production url of your site here
@@ -93,8 +94,9 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/lhzdnb/",
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
@@ -119,19 +121,19 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Link",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Leetcode",
+                href: "https://leetcode.cn/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "React",
+                href: "https://react.dev/reference/react",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "ChatGPT",
+                href: "https://chat.openai.com/",
               },
             ],
           },
