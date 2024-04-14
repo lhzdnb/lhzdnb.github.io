@@ -1,41 +1,19 @@
-# Website
+# 🌐 欢迎访问 lhzdnb Blog
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+欢迎来到我的前端开发技术博客！这里记录了我整理的前端开发知识点和学习心得。我会尽量保证每天更新，希望你能常来访问！
 
-### Installation
+## 📚 前端基础知识
 
-```
-$ yarn
-```
+在前端开发的基础知识部分，我主要梳理了计算机科学的核心课程“408”内容，包括操作系统、计算机网络、数据库以及计算机组成原理。此外，前端三件套——HTML, CSS, JavaScript 的相关知识也会被广泛涉及。
 
-### Local Development
+## 🖥️ 前端框架知识
 
-```
-$ yarn start
-```
+目前我主要使用的框架是 React。在这个部分，我将分享我关于 React 的学习笔记和经验。同时，我也在学习其他流行的前端框架如 Vue 和 Angular，并会同步更新相关知识。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 🧩 LeetCode 题解
 
-### Build
+算法是面试和笔试中的重要环节。我会定期在这里分享我在 LeetCode 上解题的答案和详细题解。如果遇到特别有意思或我觉得需要额外讨论的题目，我会提供更详细的分析。
 
-```
-$ yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+💡 **希望你能从我的博客中获得帮助！如有任何问题或建议，请随时与我联系。**
