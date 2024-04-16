@@ -15,13 +15,25 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
+        <img
+          src="img/lhzdnb.jpg"
+          alt="lhzdnb picture"
+          className={styles.irregularShape}
+        />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg link"
             to="/docs/fundamental/intro"
           >
             现在就开始学习！ ⏱️
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg link"
+            to="https://haoliang.website"
+          >
+            我的个人主页
           </Link>
         </div>
       </div>

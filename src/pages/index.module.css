@@ -20,4 +20,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+
+.irregularShape {
+  height: 300px;
+  width: 400px;
+  border-radius: 30% 50% 30% 40%;
+  margin-bottom: 20px;
 }
