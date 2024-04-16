@@ -25,10 +25,10 @@ sidebar_position: 2
 
 ## 其他新特性
 
-1. 表单控件: HTML5添加了一些新的表单输入类型，如：`email`，`date`，`time`，`url`，`range`，`color`等，以及新的表单属性，如：`placeholder`，`autofocus`，`required`等。
-2. 音视频元素：`audio`和`video`元素用于在网页中嵌入音频和视频内容，无需依赖外部插件。
-3. 图形和多媒体：引入了`canvas`元素用于绘制二维图形，以及 `WebGL`用于渲染交互式三维图形。
-4. 本地存储：提供了本地存储机制，如`localStorage`和`sessionStorage`，用于客户端存储数据。
+1. 表单控件: HTML5添加了一些新的表单输入类型，如：`email`，`date`，`time`，`url`，`range`，`color` 等，以及新的表单属性，如：`placeholder`，`autofocus`，`required` 等。
+2. 音视频元素：`audio` 和 `video`元素用于在网页中嵌入音频和视频内容，无需依赖外部插件。
+3. 图形和多媒体：引入了 `canvas` 元素用于绘制二维图形，以及 `WebGL`用于渲染交互式三维图形。
+4. 本地存储：提供了本地存储机制，如 `localStorage` 和 `sessionStorage` ，用于客户端存储数据。
 5. 拖放API：允许用户拖动页面上的元素并放置到另一个元素。
 6. 地理定位：可以获取用户的地理信息，用于提供基于位置的服务。
 7. Websocket: 提供了一种在网页和服务器之间简历持久连接的机制，用于实现实时通信。
