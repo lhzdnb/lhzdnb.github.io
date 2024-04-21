@@ -15,7 +15,7 @@ tags: [template]
 
 
 ## 代码
-```javascript
+```javascript showLineNumbers
 
 ```
 
