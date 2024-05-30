@@ -18,7 +18,7 @@ MVC模式将应用程序分为三个核心部分：
 
 :::
 
-![](/_assets/MVC.svg)
+![](./_assets/MVC.svg)
 
 ## MVC的优点
 MVC设计模式有以下优点：
