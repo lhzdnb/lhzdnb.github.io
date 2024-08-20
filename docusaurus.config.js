@@ -96,6 +96,12 @@ const config = {
             position: "left",
             label: "LeetCode题解",
           },
+          {
+            type: "docSidebar",
+            sidebarId: "interviewSidebar",
+            position: "left",
+            label: "面试题",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/lhzdnb/",
@@ -122,6 +128,10 @@ const config = {
               {
                 label: "LeetCode题解",
                 to: "/docs/LeetCode/intro",
+              },
+              {
+                label: "面试题",
+                to: "/docs/interview/intro",
               },
             ],
           },
