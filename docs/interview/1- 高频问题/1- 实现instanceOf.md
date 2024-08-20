@@ -1,7 +1,7 @@
 ---
 title: 实现instanceOf
 date: 2020-08-20 13:08:00
-tags: ['JavaScript', '面试', '手撕']
+tags: ['JavaScript', '面试', '手撕', 'instanceOf', '原型链', '高频题']
 ---
 
 ## 实现 `instanceOf` 函数
